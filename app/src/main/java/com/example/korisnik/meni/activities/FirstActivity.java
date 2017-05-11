@@ -1,8 +1,10 @@
-package com.example.korisnik.meni;
+package com.example.korisnik.meni.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.korisnik.meni.R;
 
 /**
  * Created by Korisnik on 11.5.2017..
