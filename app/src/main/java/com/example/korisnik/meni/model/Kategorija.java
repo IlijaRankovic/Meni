@@ -41,6 +41,21 @@ public class Kategorija {
         this.naziv = naziv;
     }
 
+    public void addJelo(Jelo jelo) {
+
+        jela.add(jelo);
+    }
+
+    public void removeJelo(Jelo jelo) {
+
+        jela.remove(jelo);
+    }
+
+    public Jelo getJelo(int position) {
+
+        return jela.get(position);
+    }
+
     public List<Jelo> getJela() {
         return jela;
     }
